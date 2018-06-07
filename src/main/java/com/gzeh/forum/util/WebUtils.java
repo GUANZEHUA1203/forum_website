@@ -8,6 +8,7 @@ import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.method.HandlerMethod;
 
+
 /**
  * Miscellaneous utilities for web applications.
  * @author L.cm
@@ -74,6 +75,7 @@ public class WebUtils extends org.springframework.web.util.WebUtils {
 		for (String string : split) {
 			System.out.println(string);
 		}
+		
 		
 	}
 }

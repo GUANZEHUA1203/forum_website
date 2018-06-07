@@ -1,4 +1,4 @@
-package com.gzeh.forum.base.annotation;
+package com.gzeh.forum.common.annontation;
 import java.lang.annotation.Documented;  
 import java.lang.annotation.ElementType;  
 import java.lang.annotation.Retention;  
@@ -14,9 +14,13 @@ import org.springframework.web.bind.annotation.Mapping;
 public @interface AuthPermissions {
   
     /** 
-     * 权限
+     * 权限标识 anon session sessionAndAuthc
      * @return 
      */  
-	AnnAuthType authName() default AnnAuthType.user;
+	AnnAuthType authName() default AnnAuthType.sessionAndAuthc;
+//    /*
+//     验证签名
+//     */
+//	boolean validateSign() default true;
 	
 }  

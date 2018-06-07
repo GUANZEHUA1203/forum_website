@@ -15,23 +15,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.plugins.Page;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.gzeh.forum.base.BaseController;
-import com.gzeh.forum.base.annotation.AnnAuthType;
-import com.gzeh.forum.base.annotation.AuthPermissions;
 import com.gzeh.forum.bean.Account;
 import com.gzeh.forum.bean.Aticle;
 import com.gzeh.forum.bean.Block;
-import com.gzeh.forum.bean.BlockSummary;
 import com.gzeh.forum.common.SystemConfig;
+import com.gzeh.forum.common.annontation.AnnAuthType;
+import com.gzeh.forum.common.annontation.AuthPermissions;
 import com.gzeh.forum.common.result.PageInfo;
 import com.gzeh.forum.services.IAccountService;
 import com.gzeh.forum.services.IAticleService;
 import com.gzeh.forum.services.IBlockService;
-import com.gzeh.forum.services.IBlockSummaryService;
-import com.gzeh.forum.util.SerializeUtils;
 import com.gzeh.forum.util.StringUtil;
 
 /**
@@ -60,7 +56,7 @@ public class AticleController extends BaseController {
 	
 	@RequestMapping(value="/add",method=RequestMethod.POST)
 	@ResponseBody
-	@AuthPermissions(authName = AnnAuthType.user)
+	@AuthPermissions(authName = AnnAuthType.session)
 	public Object posted(String title,String content,String blockid){
 		Long blockLong = StringUtil.getLong(blockid);
 		
@@ -92,7 +88,7 @@ public class AticleController extends BaseController {
 	}
 	
 	@RequestMapping("/update")
-	@AuthPermissions(authName = AnnAuthType.user)
+	@AuthPermissions(authName = AnnAuthType.session)
 	public Object updateActicle(Aticle aticle){
 		this.aticleService.updateById(aticle);
 		return renderSuccess();
@@ -104,7 +100,7 @@ public class AticleController extends BaseController {
 	
 	@RequestMapping("/list")
 	@ResponseBody
-	@AuthPermissions(authName = AnnAuthType.user)
+	@AuthPermissions(authName = AnnAuthType.session)
 	public Object getAticleList(@RequestParam(value="blockid",required=false) String blockid,Aticle aticle,
 			Integer page, Integer rows, String sort, String order,String startTime,String endTime,
 			String accountName){
@@ -137,7 +133,7 @@ public class AticleController extends BaseController {
 	
 	@RequestMapping("/del")
 	@ResponseBody
-	@AuthPermissions(authName = AnnAuthType.user)
+	@AuthPermissions(authName = AnnAuthType.session)
 	public Object deleteAticle(@RequestParam(value="atid",required=true) String atid){
 		Aticle ac=new Aticle();
 		ac.setAtId(StringUtil.getLong(atid));

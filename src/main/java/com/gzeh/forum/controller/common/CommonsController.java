@@ -12,8 +12,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.gzeh.forum.base.annotation.AnnAuthType;
-import com.gzeh.forum.base.annotation.AuthPermissions;
+import com.gzeh.forum.common.annontation.AnnAuthType;
+import com.gzeh.forum.common.annontation.AuthPermissions;
 import com.gzeh.forum.shiro.cache.captcha.DreamCaptcha;
 
 import net.dreamlu.module.ueditor.UeditorService;

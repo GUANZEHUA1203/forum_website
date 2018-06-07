@@ -3,7 +3,10 @@ package com.gzeh.forum.base;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Enumeration;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -29,7 +32,6 @@ import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
 import com.gzeh.forum.bean.Account;
 import com.gzeh.forum.bean.BlockSummary;
-import com.gzeh.forum.common.SystemConfig;
 import com.gzeh.forum.common.redis.RedisManager;
 import com.gzeh.forum.common.result.PageInfo;
 import com.gzeh.forum.common.result.Result;
@@ -268,6 +270,21 @@ public abstract class BaseController {
 		return iBlockSummaryService.insertOrUpdate(bs);
 	}
 	
+	
+	/**
+	 * @return
+	 */
+	protected Map<String,Object> initAllHttpParams(HttpServletRequest request) {
+		Enumeration KeyVal=request.getParameterNames();
+		Map<String,Object> params=new TreeMap<String,Object>();
+		while(KeyVal.hasMoreElements()){
+			String key=String.valueOf(KeyVal.nextElement());
+			String value=request.getParameter(key);
+			if(!key.equals("sign"))
+			params.put(key,value);
+		}
+		return params;
+	}
 	
 	public void dislike(){
 		Long userId = getUserId();
