@@ -11,10 +11,12 @@ public class SystemConfig {
 	
 	public static String DISLIKE="DISLIKE_LIKE_INFO:";
 	
-	public static long ATICLE_TIME=1000*60*5;
+	public static int ATICLE_TIME=1000*60*5;
+	
+	public static int SESSION_TIME_OUT=1000*60*30;
 	
 	public static String SESSION_KEY=PROJECT_NAME+"session:";
 	
-	public static String TOKEN=PROJECT_NAME+"login:";
+	public static String LOGIN_USER=PROJECT_NAME+"login:";
 }
 
