@@ -32,6 +32,7 @@ import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
 import com.gzeh.forum.bean.Account;
 import com.gzeh.forum.bean.BlockSummary;
+import com.gzeh.forum.common.redis.BaseRedisSession;
 import com.gzeh.forum.common.redis.RedisManager;
 import com.gzeh.forum.common.result.PageInfo;
 import com.gzeh.forum.common.result.Result;
@@ -44,7 +45,7 @@ import com.gzeh.forum.util.IdGenerator;
 import com.gzeh.forum.util.StringEscapeEditor;
 import com.gzeh.forum.util.URLUtils;
 
-public abstract class BaseController {
+public abstract class BaseController extends BaseRedisSession{
     // 控制器本来就是单例，这样似乎更加合理
     protected Logger logger = LogManager.getLogger(getClass());
 
