@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gzeh.forum.dao.PermissonMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.gzeh.forum.bean.Permisson">
+		<id column="pe_id" property="peId" />
+		<result column="pe_name" property="peName" />
+		<result column="pe_url" property="peUrl" />
+		<result column="pe_open_mode" property="peOpenMode" />
+		<result column="pe_description" property="peDescription" />
+		<result column="pe_icon" property="peIcon" />
+		<result column="pe_parent" property="peParent" />
+		<result column="pe_seq" property="peSeq" />
+		<result column="pe_status" property="peStatus" />
+		<result column="pe_opened" property="peOpened" />
+		<result column="pe_resource_type" property="peResourceType" />
+		<result column="pe_create_time" property="peCreateTime" />
+	</resultMap>
+
+</mapper>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gzeh.forum.dao.RoleMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.gzeh.forum.bean.Role">
+		<id column="ro_id" property="roId" />
+		<result column="ro_name" property="roName" />
+		<result column="ro_status" property="roStatus" />
+		<result column="ro_description" property="roDescription" />
+		<result column="seq" property="seq" />
+	</resultMap>
+	
+	<select id="selectPermissionListByRoleId" resultType="java.lang.Long"  parameterType="java.lang.Long">
+		select trp.pe_id from tbl_permisson tp LEFT JOIN tbl_role_permission trp on tp.pe_id=trp.pe_id where trp.ro_id=#{id}				
+	</select>
+	
+	<select id="selectPermissionListByRoleIdList" parameterType="java.lang.Long" resultType="com.gzeh.forum.bean.Permisson">
+			SELECT DISTINCT
+				tp.pe_id AS peId,
+				pe_name peName,
+				pe_url peUrl,
+				pe_open_mode peOpenMode,
+				pe_description peDescription,
+				pe_icon peIcon,
+				pe_parent peParent,
+				pe_seq peSeq,
+				pe_status peStatus,
+				pe_opened peOpened,
+				pe_resource_type peResourceType,
+				pe_create_time peCreateTime
+		FROM
+			tbl_role tr
+		LEFT JOIN tbl_role_permission trp ON tr.ro_id = trp.ro_id
+		LEFT JOIN tbl_permisson tp ON trp.pe_id = tp.pe_id
+		where tr.ro_id in
+		<foreach collection="list" item="item" open="(" close=")" separator=",">
+			#{item}
+		</foreach>
+	</select>
+	
+	<select id="selectRolesByAcid" resultMap="BaseResultMap" parameterType="java.lang.Long">
+		SELECT
+			tr.*
+		FROM
+			tbl_account ta
+		LEFT JOIN tbl_account_role tar ON ta.ac_id = tar.ac_id
+		LEFT JOIN tbl_role tr ON tar.ro_id = tr.ro_id
+		WHERE
+			ta.ac_id = #{acid}
+	</select>
+	
+	
+	<select id="selectRolePage" parameterType="java.util.Map" resultType="java.util.Map">
+		SELECT * from tbl_role tr 
+		<where>
+		<if test="name !=null">
+			tr.ro_name like concat(concat('%',#{name}),'%') 
+		</if>
+		</where>
+	</select>
+	
+	
+
+</mapper>

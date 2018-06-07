@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gzeh.forum.dao.LevelMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.gzeh.forum.bean.Level">
+		<result column="le_id" property="leId" />
+		<result column="le_name" property="leName" />
+		<result column="le_option" property="leOption" />
+		<result column="le_start" property="leStart" />
+		<result column="le_end" property="leEnd" />
+		<result column="le_icon" property="leIcon" />
+	</resultMap>
+
+	<select id="getLevelByAccountId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+		select * from tbl_level where #{0} between le_start and le_end;
+	</select>
+	
+</mapper>

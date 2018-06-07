@@ -1,0 +1,31 @@
+update user set authentication_string=password('xxxxx.') where user='root';
+flush privileges;
+
+
+
+更新模块信息
+
+DELIMITER $
+CREATE TRIGGER tbl_block_summary AFTER INSERT ON tbl_aticle FOR EACH ROW
+BEGIN
+
+DECLARE accountName VARCHAR(225)character set utf8;
+DECLARE num INT(20);
+DECLARE tmp INT(20);
+DECLARE blockid BIGINT(20);
+DECLARE acountid BIGINT(20);
+
+SELECT ac_real_name INTO accountName from tbl_account where ac_id=new.acount_id;
+select count(0)  INTO num from tbl_block_summary where bs_block=NEW.block_id;
+SELECT bs_account INTO tmp from tbl_block_summary WHERE bs_block=NEW.block_id;
+SET blockid =NEW.block_id;
+SELECT ac_real_name into acountid from tbl_account where ac_id=new.acount_id;
+
+IF(num>0) THEN
+	UPDATE tbl_block_summary SET bs_account=(tmp+1) WHERE bs_block=blockid;
+ELSE
+	INSERT INTO tbl_block_summary (bs_block,bs_account,bs_lastman) VALUES(blockid,1,accountName);
+END IF;
+END $
+DELIMITER ;
+

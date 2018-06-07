@@ -1,0 +1,503 @@
+2018-04-23 23:22:35,062 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,064 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,071 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,088 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,095 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,124 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,126 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,128 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,131 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,137 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,149 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,159 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,166 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,173 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,177 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,181 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,183 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,188 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,190 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:22:35,192 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,513 - Log4JLogChute initialized using file 'velocity.log'
+2018-04-23 23:23:35,513 - Initializing Velocity, Calling init()...
+2018-04-23 23:23:35,514 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-04-23 23:23:35,514 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-04-23 23:23:35,514 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-04-23 23:23:35,514 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-04-23 23:23:35,514 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:23:35,514 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:23:35,524 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,553 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-04-23 23:23:35,555 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-04-23 23:23:35,556 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-04-23 23:23:35,557 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-04-23 23:23:35,559 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-04-23 23:23:35,560 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-04-23 23:23:35,561 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-04-23 23:23:35,563 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-04-23 23:23:35,567 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-04-23 23:23:35,569 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-04-23 23:23:35,621 - Created '20' parsers.
+2018-04-23 23:23:35,637 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-04-23 23:23:35,637 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-04-23 23:23:35,638 - Velocimacro : Default library not found.
+2018-04-23 23:23:35,638 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-04-23 23:23:35,638 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-04-23 23:23:35,638 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-04-23 23:23:35,638 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-04-23 23:23:35,661 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,695 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,705 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,713 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,719 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,721 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,726 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,731 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,736 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,739 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,748 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,758 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,785 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,793 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,796 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,802 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,812 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,819 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,826 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,834 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,840 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,844 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,848 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,853 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,856 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,859 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,862 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,869 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,876 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,886 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,894 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,905 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,911 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,918 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,921 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:35,925 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,042 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,045 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,047 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,051 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,055 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,058 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,062 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,068 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,072 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,086 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,098 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,106 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,124 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,130 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,138 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,141 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,143 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,146 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,154 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,170 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,182 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,191 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,200 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,210 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,220 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,224 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,227 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,229 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,235 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:23:36,247 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,324 - Log4JLogChute initialized using file 'velocity.log'
+2018-04-23 23:24:34,325 - Initializing Velocity, Calling init()...
+2018-04-23 23:24:34,325 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-04-23 23:24:34,325 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-04-23 23:24:34,325 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-04-23 23:24:34,325 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-04-23 23:24:34,325 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:24:34,325 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:24:34,328 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,341 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-04-23 23:24:34,342 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-04-23 23:24:34,343 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-04-23 23:24:34,343 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-04-23 23:24:34,344 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-04-23 23:24:34,344 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-04-23 23:24:34,345 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-04-23 23:24:34,349 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-04-23 23:24:34,351 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-04-23 23:24:34,353 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-04-23 23:24:34,392 - Created '20' parsers.
+2018-04-23 23:24:34,402 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-04-23 23:24:34,403 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-04-23 23:24:34,403 - Velocimacro : Default library not found.
+2018-04-23 23:24:34,403 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-04-23 23:24:34,403 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-04-23 23:24:34,403 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-04-23 23:24:34,403 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-04-23 23:24:34,422 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,451 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,456 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,459 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,462 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,466 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,471 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,475 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,478 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,481 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,484 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,487 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,500 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,504 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,507 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,510 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,511 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,514 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,518 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,538 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,541 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,543 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,545 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,550 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,554 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,558 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,561 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,563 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,568 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,571 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,575 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,577 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,582 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,593 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,602 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,606 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,609 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,612 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,619 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,622 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,625 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,628 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,641 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,645 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,657 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,667 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,673 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,677 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,685 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,688 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,692 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,695 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,698 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,703 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,709 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,712 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,724 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,737 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,750 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,755 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,761 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,766 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,772 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,775 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,777 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:24:34,781 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:16,853 - Log4JLogChute initialized using file 'velocity.log'
+2018-04-23 23:25:16,854 - Initializing Velocity, Calling init()...
+2018-04-23 23:25:16,854 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-04-23 23:25:16,854 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-04-23 23:25:16,854 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-04-23 23:25:16,854 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-04-23 23:25:16,854 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:25:16,854 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:25:16,863 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:16,898 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-04-23 23:25:16,902 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-04-23 23:25:16,904 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-04-23 23:25:16,904 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-04-23 23:25:16,905 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-04-23 23:25:16,906 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-04-23 23:25:16,907 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-04-23 23:25:16,908 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-04-23 23:25:16,912 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-04-23 23:25:16,914 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-04-23 23:25:16,974 - Created '20' parsers.
+2018-04-23 23:25:16,992 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-04-23 23:25:16,993 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-04-23 23:25:16,993 - Velocimacro : Default library not found.
+2018-04-23 23:25:16,993 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-04-23 23:25:16,994 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-04-23 23:25:16,994 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-04-23 23:25:16,994 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-04-23 23:25:17,080 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,134 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,140 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,147 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,152 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,155 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,164 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,168 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,174 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,195 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,204 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,220 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,271 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,282 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,297 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,319 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,333 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,368 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,391 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,418 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,437 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,442 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,450 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,475 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,500 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,505 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,512 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,521 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,527 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,540 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,556 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,569 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,585 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,600 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,607 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,612 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,618 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,621 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,623 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,630 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,653 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,665 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,685 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,698 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,706 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,715 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,722 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,724 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,738 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,757 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,775 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,786 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,814 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,831 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,840 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,858 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,888 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,902 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,905 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,910 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,917 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,920 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,923 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,932 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,941 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:25:17,957 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,086 - Log4JLogChute initialized using file 'velocity.log'
+2018-04-23 23:26:03,094 - Initializing Velocity, Calling init()...
+2018-04-23 23:26:03,094 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-04-23 23:26:03,094 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-04-23 23:26:03,094 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-04-23 23:26:03,094 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-04-23 23:26:03,095 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:26:03,095 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-04-23 23:26:03,112 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,135 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-04-23 23:26:03,140 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-04-23 23:26:03,143 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-04-23 23:26:03,151 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-04-23 23:26:03,157 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-04-23 23:26:03,159 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-04-23 23:26:03,168 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-04-23 23:26:03,173 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-04-23 23:26:03,177 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-04-23 23:26:03,179 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-04-23 23:26:03,257 - Created '20' parsers.
+2018-04-23 23:26:03,267 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-04-23 23:26:03,268 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-04-23 23:26:03,268 - Velocimacro : Default library not found.
+2018-04-23 23:26:03,268 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-04-23 23:26:03,268 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-04-23 23:26:03,268 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-04-23 23:26:03,269 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-04-23 23:26:03,326 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,351 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,364 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,368 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,374 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,378 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,384 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,392 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,395 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,398 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,400 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,406 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,417 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,425 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,427 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,440 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,451 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,460 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,466 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,473 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,475 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,480 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,482 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,486 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,506 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,517 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,523 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,527 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,529 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,531 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,540 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,544 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,547 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,551 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,570 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,581 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,592 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,595 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,598 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,600 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,605 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,609 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,614 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,617 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,623 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,640 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,656 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,662 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,667 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,674 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,680 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,683 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,689 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,693 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,698 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,704 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,711 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,725 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,732 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,740 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,745 - ResourceManager : found /template/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,748 - ResourceManager : found /template/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,751 - ResourceManager : found /template/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,757 - ResourceManager : found /template/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,760 - ResourceManager : found /template/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-04-23 23:26:03,762 - ResourceManager : found /template/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,459 - Log4JLogChute initialized using file 'velocity.log'
+2018-05-24 10:04:14,460 - Initializing Velocity, Calling init()...
+2018-05-24 10:04:14,460 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-05-24 10:04:14,460 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-05-24 10:04:14,460 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-05-24 10:04:14,460 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-05-24 10:04:14,460 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-05-24 10:04:14,460 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-05-24 10:04:14,462 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,471 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-05-24 10:04:14,472 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-05-24 10:04:14,472 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-05-24 10:04:14,473 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-05-24 10:04:14,473 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-05-24 10:04:14,474 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-05-24 10:04:14,474 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-05-24 10:04:14,475 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-05-24 10:04:14,476 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-05-24 10:04:14,476 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-05-24 10:04:14,494 - Created '20' parsers.
+2018-05-24 10:04:14,497 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-05-24 10:04:14,497 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-05-24 10:04:14,497 - Velocimacro : Default library not found.
+2018-05-24 10:04:14,497 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-05-24 10:04:14,497 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-05-24 10:04:14,497 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-05-24 10:04:14,497 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-05-24 10:04:14,510 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,521 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,523 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,525 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,527 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,528 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,531 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,533 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,535 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,536 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,538 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,539 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,542 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,544 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,546 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,547 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,548 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,550 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,552 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,554 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,555 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,557 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,558 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,560 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,562 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,564 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,565 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,566 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,568 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,569 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,571 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,573 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,574 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,575 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,576 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,578 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,580 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,582 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,583 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,584 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,585 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,587 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,589 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,590 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,592 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,593 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,594 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,596 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,598 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,599 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,601 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,602 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,603 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,604 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,605 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,607 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,608 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,609 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,610 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,612 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,613 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,615 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,616 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,617 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,618 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,619 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,621 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,622 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,624 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,625 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,626 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,628 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,630 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,631 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,632 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,633 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,634 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,635 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,637 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,638 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,639 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,641 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,642 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-05-24 10:04:14,643 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
