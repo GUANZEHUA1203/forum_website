@@ -2,8 +2,6 @@ package com.gzeh.forum.common.redis;
 
 import java.util.Set;
 
-import com.gzeh.forum.util.services.RedisGeneratorService;
-
 import redis.clients.jedis.Jedis;
 
 public class RedisManager extends RedisGeneratorService<String,String> {
